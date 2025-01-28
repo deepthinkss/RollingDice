@@ -147,7 +147,7 @@ function App(): JSX.Element {
         >
           {/* Dice Card */}
           <LinearGradient
-            colors={["#FFFFFF", "#F5F5F5"]}
+            colors={["#FFFFFF", "#E2E8e4"]}
             style={styles.card}
           >
             <Animated.View style={[styles.diceContainer, diceStyle]}>
@@ -157,7 +157,7 @@ function App(): JSX.Element {
 
           {/* Button Card */}
           <LinearGradient
-            colors={["#6A5ACD", "#8A2BE2"]}
+            colors={["#8EA7E9", "#ffffff"]}
             style={styles.card}
           >
             <Animated.View style={buttonStyle}>
@@ -269,7 +269,7 @@ const styles = StyleSheet.create({
   },
   rollDiceBtnText: {
     fontSize: 20,
-    color: "#6A5ACD",
+    color: "#555555",
     fontWeight: "700",
     textTransform: "uppercase",
   },
